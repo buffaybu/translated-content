@@ -30,7 +30,6 @@ translation_of: Web/HTTP/Headers/Content-Encoding
 <pre class="syntaxbox">Content-Encoding: gzip
 Content-Encoding: compress
 Content-Encoding: deflate
-Content-Encoding: identity
 Content-Encoding: br
 </pre>
 
@@ -44,8 +43,6 @@ Content-Encoding: br
  与其同名程序已经在大部分UNIX发行版中消失一样，这种内容编码方式已经被大部分浏览器弃用，部分因为专利问题（这项专利在2003年到期）。</dd>
  <dt><code>deflate</code></dt>
  <dd>采用 <a href="http://en.wikipedia.org/wiki/Zlib">zlib</a> 结构 (在 <a href="http://tools.ietf.org/html/rfc1950">RFC 1950</a> 中规定)，和 <a href="http://en.wikipedia.org/wiki/DEFLATE"><em>deflate</em></a> 压缩算法(在 <a href="http://tools.ietf.org/html/rfc1952">RFC 1951</a> 中规定)。</dd>
- <dt><code>identity</code></dt>
- <dd>用于指代自身（例如：未经过压缩和修改）。除非特别指明，这个标记始终可以被接受。</dd>
  <dt><code>br</code></dt>
  <dd>表示采用 <a href="https://en.wikipedia.org/wiki/Brotli">Brotli</a> 算法的编码方式。</dd>
 </dl>
